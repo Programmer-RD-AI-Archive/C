@@ -7,7 +7,7 @@ int main()
     fprintf(fpointer, "testing");
     fclose(fpointer);
     FILE *fpointer = fopen("test.txt", "a");
-    fprintf(fpointer, "\ntesting");
+    fprintf(fpointer, "testing");
     fclose(fpointer);
     return 0;
 }
