@@ -11,6 +11,6 @@ int main()
     struct Student student1;
     student1.age = 22;
     student1.gpa = 3.2;
-
+    
     return 0;
 }
